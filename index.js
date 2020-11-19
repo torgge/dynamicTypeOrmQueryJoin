@@ -1,4 +1,4 @@
-const relations = ['costo', 'costo.mercaderia', 'costo.mercaderia.unidad']
+const relations = ['costo', 'costo.mercaderia', 'costo.mercaderia.unidad', 'costo.mercaderia.moneda.usuario']
 
 function buildQueryJoins(str) {
     let tables = [];
